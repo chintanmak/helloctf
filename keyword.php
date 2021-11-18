@@ -22,10 +22,21 @@
 <form action="keyword.php" method="POST">
 
 <div class="maininput">
-	<input type="text" name="name" placeholder="Search here..!!">
+	<input type="text" name="key" placeholder="**** ****">
 	<input type="submit" name="search" value="search">
 </div>
-	
+
+<?php
+$keyw = $_POST["key"];
+if($keyw=="rick roll")
+{
+  echo "Congrats you've been trolled.";
+}
+else
+{
+  echo "Wrong Keyword";
+}
+?>
 </form>
 
 </body>
