@@ -8,16 +8,17 @@
 <div class="topnav">
   <a href="hello.html">Home</a>
   <a href="about.html">About</a>
-  <a href="challenge.html">Challenge</a>
+  <a class="active" href="hello.php">Challenge</a>
 </div>
 
-<h1><center>HELLOOOO</center></h1>
+<form action="" method="POST">
 
-<br>
 <div class="maininput">
 	<input type="text" cols="50" name="search" placeholder="Search here..!!">
 	<input type="submit" name="search" value="search">
 </div>
+	
+</form>
 
 
 </body>
