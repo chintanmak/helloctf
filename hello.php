@@ -9,6 +9,7 @@
   <a href="hello.html">Home</a>
   <a href="about.html">About</a>
   <a class="active" href="hello.php">Challenge</a>
+  <a href="keyword.html">Keyword</a>
 </div>
 
 <form action="" method="POST">
